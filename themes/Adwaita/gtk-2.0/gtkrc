@@ -12,23 +12,23 @@
 # order to not mess up the dark theme.
 
 # Text/base
-gtk-color-scheme = "text_color:black\nbase_color:white"
+gtk-color-scheme = "text_color:black\nbase_color:#f1f1f1"
 # Foreground/background
-gtk-color-scheme = "fg_color:#2e3436\nbg_color:#e8e8e7"
+gtk-color-scheme = "fg_color:black\nbg_color:#dcdcdc"
 # Selected foreground/background
-gtk-color-scheme = "selected_fg_color:#ffffff\nselected_bg_color:#4a90d9"
+gtk-color-scheme = "selected_fg_color:#ffffff\nselected_bg_color:#006aff"
 # Insensitive foreground/background
-gtk-color-scheme = "insensitive_fg_color:#8b8e8f\ninsensitive_bg_color:#f1f1f1"
+gtk-color-scheme = "insensitive_fg_color:#888888\ninsensitive_bg_color:#d2d2d2"
 # Menus
-gtk-color-scheme = "menu_color:white"
+gtk-color-scheme = "menu_color:#f1f1f1"
 # Links
-gtk-color-scheme = "link_color:#2a76c6\nvisited_link_color:#215d9c"
+gtk-color-scheme = "link_color:#2980b9\nvisited_link_color:#7f8c8d"
 # Treeview headers
-gtk-color-scheme = "column_header_color:#979a9b\nhover_column_header_color:#636769"
+gtk-color-scheme = "column_header_color:black\nhover_column_header_color:black"
 # Window decoration
-gtk-color-scheme = "window_color:#f4f4f4"
+gtk-color-scheme = "window_color:#dcdcdc"
 # Tooltips
-gtk-color-scheme = "tooltip_fg_color:#ffffff\ntooltip_bg_color:#343434"
+gtk-color-scheme = "tooltip_fg_color:black\ntooltip_bg_color:#fbfbfb"
 
 # Set GTK settings
 gtk-auto-mnemonics              = 1
