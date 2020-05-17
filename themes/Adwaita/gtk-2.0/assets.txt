@@ -1,3 +1,4 @@
+menu-bg
 menu-checkbox
 menu-checkbox-hover
 menu-checkbox-insensitive
@@ -142,4 +143,3 @@ treeview-pan-down-hover
 treeview-pan-down-active
 treeview-separator-ltr
 treeview-separator-rtl
-menu-bg

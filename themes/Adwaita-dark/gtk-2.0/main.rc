@@ -1498,24 +1498,22 @@ style "default" {
 style "menubar" {
 
   # Needed to fix Firefox's menubar text
-  bg[SELECTED] = @selected_fg_color
-  fg[SELECTED] = @link_color
+  bg[SELECTED] = @selected_bg_color
+  fg[SELECTED] = @selected_fg_color
 
 }
 
 style "menubar_item" {
 
-  xthickness = 3
-  ythickness = 4
-
-  fg[PRELIGHT] = @link_color
+  fg[PRELIGHT] = @selected_fg_color
 
   engine "pixmap" {
     image {
       function    = BOX
       state       = PRELIGHT
       file        = "assets/menubar-item-active.png"
-      border      = {0, 0, 0, 3}
+      stretch     = TRUE
+      border      = {0, 0, 0, 0}
     }
   }
 
@@ -1525,11 +1523,21 @@ style "menu" {
 
   xthickness = 0
   ythickness = 0
-
+  
   bg[NORMAL]      = @menu_color
   bg[INSENSITIVE] = @menu_color
   bg[PRELIGHT]    = @menu_color
   bg[SELECTED]    = @selected_bg_color
+  
+  engine "pixmap" {
+    image {
+      function    = BOX
+      detail      = "menu"
+      file        = "assets/menu-bg.png"
+      stretch     = TRUE
+      border      = {1, 1, 1, 1}
+    }
+  }
 
 }
 

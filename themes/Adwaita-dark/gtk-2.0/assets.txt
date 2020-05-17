@@ -1,3 +1,4 @@
+menu-bg
 menu-checkbox
 menu-checkbox-hover
 menu-checkbox-insensitive
